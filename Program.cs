@@ -130,7 +130,7 @@ class Program
 
         Console.WriteLine($"Score; {score}/5");
 
-        if (score <= 2)
+        if (commonPassword || score <= 2)
         {
             Console.WriteLine("Result: WEAK");
         }
